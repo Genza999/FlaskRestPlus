@@ -2,9 +2,9 @@
 Real-life RESTful server example on Flask-RESTplus demonstrated using  Sayuni hadrware inventory
 
 ### Real Live Demo
-```
-[https://sayuni.herokuapp.com/](https://sayuni.herokuapp.com/)
-```
+
+[Sayuni API Demo project](https://sayuni.herokuapp.com/)
+
 ### Project dependencies
 
 * [Python](https://www.python.org) - 3.3
@@ -13,4 +13,5 @@ Real-life RESTful server example on Flask-RESTplus demonstrated using  Sayuni ha
 * [Pymongo](https://api.mongodb.com/python/current/) - Python Framework used to connect to the Sayuni Mongo database on Mlab
 * [Swagger-UI](https://github.com/swagger-api/swagger-ui) - For interactive RESTful API documentation.
 
-![Screenshot](img/sayuni.png)
+![Flask RESTplus Example API](https://github.com/Genza999/FlaskRestPlus/img/sayuni.PNG)
+
