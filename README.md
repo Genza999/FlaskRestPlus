@@ -13,4 +13,4 @@ Real-life RESTful server example on Flask-RESTplus demonstrated using  Sayuni ha
 * [Pymongo](https://api.mongodb.com/python/current/) - Python Framework used to connect to the Sayuni Mongo database on Mlab
 * [Swagger-UI](https://github.com/swagger-api/swagger-ui) - For interactive RESTful API documentation.
 
-![Screenshot]("https://github.com/Genza999/FlaskRestPlus/sayuni.png"|absolute_url)
+![Screenshot](img/sayuni.png)
