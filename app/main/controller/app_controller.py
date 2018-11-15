@@ -46,7 +46,7 @@ class Inventory(Resource):
                 if coll.find_one({'name': data.get("name")}):
                     return {"response": "Product already exists"}
                 else:
-                    coll.insert(data)
+                    coll.insert_one(data)
                     return make_response(
                         "{name} successfully created".format(
                             name=data.get("name")), 201
@@ -75,7 +75,7 @@ class Product(Resource):
         """Delete a product given its name"""
         existing_product = coll.find_one({'name': name})
         if existing_product:
-            coll.remove(existing_product)
+            coll.delete_one(existing_product)
             return make_response(
                 "{name} successfully deleted".format(name=name), 201
             )

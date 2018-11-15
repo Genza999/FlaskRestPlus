@@ -5,6 +5,24 @@ Real-life RESTful server example on Flask-RESTplus demonstrated using  Sayuni ha
 
 [Sayuni API Demo project](https://sayuni.herokuapp.com/)
 
+### Use the command below to build a perfect replica of the virtual environment:
+
+```
+pip install -r requirements.txt
+```
+
+### Run the following command to run the tests
+
+```
+python manage.py test --coverage
+```
+
+### Run the following command to start the web application
+
+```
+python manage.py runserver
+```
+
 ### Project dependencies
 
 * [Python](https://www.python.org) - 3.3
