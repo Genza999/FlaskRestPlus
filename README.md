@@ -1,4 +1,7 @@
-# FlaskRestPlus
+[![Build Status](https://travis-ci.org/Genza999/inventory_api.svg?branch=master)](https://travis-ci.org/Genza999/inventory_api)
+[![Coverage Status](https://coveralls.io/repos/github/Genza999/inventory_api/badge.svg?branch=master)](https://coveralls.io/github/Genza999/inventory_api?branch=master)
+
+# inventory_api
 Real-life RESTful server example on Flask-RESTplus demonstrated using  Sayuni hadrware inventory
 
 ### Real Live Demo
